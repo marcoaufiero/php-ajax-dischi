@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1E2D3B;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-box{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card{
+    width: calc(100% / 3 - 20px);
+    padding: 20px;
+    background-color: #283d50;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+h2{
+    color: white;
+    padding: 20px 0;
+    font-size: 1.8rem;
+}
+
+p{
+    color: grey;
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+}
