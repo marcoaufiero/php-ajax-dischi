@@ -6,10 +6,13 @@
 
 body{
     background-color: #1E2D3B;
-    height: 100vh;
+}
+
+main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 150px;
 }
 
 .card-box{
